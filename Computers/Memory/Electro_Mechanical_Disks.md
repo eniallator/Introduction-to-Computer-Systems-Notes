@@ -11,6 +11,8 @@
 - The read/write head can move on an arc across the platter
 - The platter is organized into tracks which run the circumference of the platter, where each track is divided in to sectors which are arcs on the platter
   - 10,000 Tracks/centimeter
+  - Sectors are larger towards the outside of the disk
+    - Manufacturers now pack more data storage in the outer sectors, which can then be read faster
 - Data is stored extremely compactly - 100,000 bits/millimeter around the track
 - Has an information density of 250 MB/square millimeter
 - Latency using this is very high - in the order of 10s of milliseconds
