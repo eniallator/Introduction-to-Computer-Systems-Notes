@@ -102,3 +102,15 @@
 
 - It adds the 3 inputs (A, B and C<sub>in</sub>)
   - Then the Sum output is the 1s column and then the C<sub>out</sub> is the 2s column (Binary addition)
+
+### Operations
+
+- Types:
+  - AND
+  - OR
+  - XOR
+  - Addition
+  - Subtraction
+  - Comparison
+- All applied to multi-bit inputs (8 - 64 bits)
+- Some ALUs perform more complex things like floating point arithmetic
