@@ -9,3 +9,10 @@
   - KiB = kibibyte = 8192 bits
   - b = bit
   - 10<sup>3</sup> ≈ 2<sup>10</sup>
+
+## Week 6
+
+- Q: 3 kinds of instruction
+  - Control
+  - Arithmetic/logic
+  - Data transfer
