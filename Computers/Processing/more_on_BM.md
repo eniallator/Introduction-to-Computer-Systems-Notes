@@ -48,6 +48,23 @@
 - E.g load into register 5 the contents of the memory at address `DE`
   - `MOV [DE] -> R5`
 
+### Register Indirect Addressing
+
+- The data is somewhere in memory. The address of that memory location is held in a register
+- The address in register can change as the result of a computation
+- The extended BM instruction set has this addressing mode
+  - E.g load into register 4, the data whose address is in register 2:
+
+```text
+      MOV  [R2]    -> R4
+```
+
+- Or the machine instruction version:
+
+| Opcode | Register A | Register B |
+| :----: | :--------: | :--------: |
+|   D0   |     4      |     2      |
+
 ## Assembly Programming Example
 
 - Goal - to recreate the following Java code in the BM programming language:
